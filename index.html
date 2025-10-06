@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonavajo & Perfumería</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Autonavajo & Perfumería</h1>
+    <nav>
+      <button class="tab-btn active" data-target="autolavado">Autolavado</button>
+      <button class="tab-btn" data-target="perfumeria">Perfumería</button>
+    </nav>
+  </header>
+
+  <!-- Autolavado -->
+  <section id="autolavado" class="tab-section active">
+    <h2>Autolavado</h2>
+    <p>Tu auto limpio y brillante, con el mejor cuidado.</p>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Auto+1" alt="Auto 1">
+      <img src="https://via.placeholder.com/300x200?text=Auto+2" alt="Auto 2">
+      <img src="https://via.placeholder.com/300x200?text=Auto+3" alt="Auto 3">
+    </div>
+    <div class="contact">
+      <h3>Contacto Autolavado</h3>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Perfumería -->
+  <section id="perfumeria" class="tab-section">
+    <h2>Perfumería Árabe</h2>
+    <p>Perfumes sencillos, baratos y de gran calidad.</p>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x200?text=Perfume+1" alt="Perfume 1">
+      <img src="https://via.placeholder.com/200x200?text=Perfume+2" alt="Perfume 2">
+      <img src="https://via.placeholder.com/200x200?text=Perfume+3" alt="Perfume 3">
+    </div>
+    <div class="contact">
+      <h3>Contacto Perfumería</h3>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Autonavajo & Perfumería. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
